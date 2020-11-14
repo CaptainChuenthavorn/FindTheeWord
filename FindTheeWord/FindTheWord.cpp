@@ -11,7 +11,7 @@ int main()
 	char* three;
 	char* four;
 	char* five;
-	char word[6];
+	char word[1000];
 	int maxChar=0;
 	int choice;
 	printf("Type your sentence : \n");
@@ -39,7 +39,7 @@ int main()
 	else if (choice == 5)
 	{
 	typeagain5:
-		printf("Tpye word you want to find : ");
+		printf("Type word you want to find : ");
 		scanf("%s", word);
 		if (word[5] != '\0')
 		{
